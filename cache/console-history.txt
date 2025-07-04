@@ -1,0 +1,6 @@
+let wallet = new ethers.Wallet("ece8cb004a955895e3f846b5f448453bf16eaa7102385b8a5da85626056bb877");wallet.address
+const { ethers } = require("hardhat");let wallet = new ethers.Wallet("ece8cb004a955895e3f846b5f448453bf16eaa7102385b8a5da85626056bb877");wallet.address
+let wallet wallet.address
+const { ethers } = require("hardhat");
+let wallet = new ethers.Wallet("ece8cb004a955895e3f846b5f448453bf16eaa7102385b8a5da85626056bb877")
+let wallet = new ethers.Wallet("ece8cb004a955895e3f846b5f448453bf16eaa7102385b8a5da85626056bb877")wallet.address
