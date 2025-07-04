@@ -122,4 +122,99 @@ Once funds are available, execute deployment using the configured script.
 ## Note
 All smart contract files, configurations, and the deployment script have been successfully pushed to GitHub. Deployment will be completed once testnet funds are available.
 
+## Step 3 Frontend Setup:
+
+Clean React + Tailwind UI
+
+Wallet connect via MetaMask
+
+Organizer Dashboard page with badge mint form
+
+UI placeholders for:
+
+NFT preview
+
+Participant profile
+
+Public verifier
+
+Next up for this (if you return):
+
+Connect frontend to contract using Ethers.js
+
+On form submit:
+
+Upload metadata to IPFS using nft.storage
+
+Mint badge using smart contract (mintBadge())
+
+🔜 What’s Left (If You Resume)
+## 4. GitHub Contribution Check:
+Purpose: Prevent fake badge minting — prove real work.
+
+Use GitHub REST API (or GraphQL if needed)
+
+Input: GitHub username + repo
+
+Logic:
+
+Count commits or PRs from that user
+
+If X contributions → allow mint
+
+Output: JSON of contributions → upload to IPFS
+
+Store IPFS hash in badge metadata for traceability
+
+Optional:
+
+Can do this in frontend (JS fetch GitHub API)
+
+Or use a Node.js backend for heavier auth & rate limits
+
+## 5. Mint Badges with Metadata
+Purpose: Lock actual proof on-chain.
+
+Organizer inputs:
+
+Wallet address
+
+Role
+
+Event/repo metadata
+
+System:
+
+Verifies GitHub contribution (Step 4)
+
+Uploads metadata + image to IPFS
+
+Calls smart contract → mints SBT (Soulbound Token)
+
+🔐 This is your core proof. The "skill badge" tied to real effort.
+
+## 6. Deploy & Demo
+Purpose: Package everything for judges or recruiters.
+
+Frontend: Vercel
+
+Smart contract: Polygon Mumbai testnet
+
+Video:
+
+Organizer logs in, fills form
+
+Participant sees minted badge in wallet
+
+Public view badge via wallet address
+
+Add:
+
+GitHub repo link
+
+Live site link
+
+YouTube demo link in README.md
+
+
 
