@@ -37,4 +37,36 @@ tech-stack.md
 badge-schema.json
 
 flow-diagram.png
->>>>>>> e17d6213a2ad5b63792da44fa79b24c00a177b9d
+
+## Step 2: Smart Contract Setup – Status Update (Professional Summary for README)
+
+Step 2: Smart Contract Setup Using Hardhat
+In this step, we established the complete smart contract development environment to build the PoSCBadge NFT contract — which represents verifiable, role-based skill contributions in hackathons and workshops.
+
+### What We Did:
+Initialized Hardhat for local Ethereum development.
+
+Installed OpenZeppelin libraries to build secure and standardized NFT (ERC721) contracts.
+
+Created the core contract PoSCBadge.sol to mint skill-based NFTs.
+
+Configured hardhat.config.js with:
+
+Polygon Mumbai testnet for deployment
+
+Environment variables for wallet key and RPC provider
+
+Compiled the smart contract successfully and ensured it’s ready for deployment.
+
+### Deployment Status: Pending
+The smart contract has not yet been deployed to the Mumbai testnet due to insufficient MATIC balance in the connected wallet (used for paying gas fees).
+
+## Next Steps
+Request test MATIC from Polygon Mumbai Faucet.
+
+Once funds are available, execute deployment using the configured script.
+
+## Note
+All smart contract files, configurations, and the deployment script have been successfully pushed to GitHub. Deployment will be completed once testnet funds are available.
+
+
