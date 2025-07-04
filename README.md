@@ -1,12 +1,65 @@
 # Web3ssh-Hackathon-2025
-
+## Title:
+### Proof of Skill & Contribution (PoSC): A Web3 Protocol for Verifying Real Participation in Hackathons & Workshops**
 ## Project Tagline
 ### A unified, tamper-proof, and decentralized platform for verifying real-world skill and participation in Web3 workshops, hackathons, and online micro-courses.
+## **THE CORE PROBLEM:**
+
+> In the current Web2/Web3 ecosystem, there's no reliable, tamper-proof, and decentralized way to verify what someone actually contributed during events like hackathons, workshops, or community projects.
+> 
+
+Certificates, PDFs, or POAPs can say *"you were there."*
+
+But **none of them prove:**
+
+- What **you built**
+- What **role** you played
+- Whether you **actually participated** or just **sat around**
+
+**For builders, recruiters, DAOs, and grant platforms — this is a trust black hole.**
+
+## **SOLUTION:**
+
+> Build a Web3-native protocol that lets event organizers and peers issue verifiable, tamper-proof skill attestations as soulbound NFTs, linked to:
+> 
+- **GitHub commits**
+- **On-chain attestations**
+- **Peer signatures (wallet-based)**
+- **Role-based metadata** like "frontend", "backend", "designer", "mentor", etc.
+
+All of this forms a **real-time, trustless, decentralized skill profile** that evolves with every event.
+
+### KEY DIFFERENTIATORS (Compared to Other Projects):
+
+| Existing System | Weakness | Your Solution |
+| --- | --- | --- |
+| POAP | Just shows attendance | We verify actual work + role |
+| LearnCard / Open Badges | Generic academic focus | We are **event-specific + GitHub verified + decentralized** |
+| Gitcoin Passport | Identity proof only | We are **contribution & skill proof** |
+| Kleros Badges | General-purpose + slow arbitration | Ours is **event-native + real-time** |
+
+---
+
+## MAIN TECH STACK — 
+
+| Layer | Tool | Purpose |
+| --- | --- | --- |
+| 🔸 Smart Contract | **Solidity + Hardhat** | Mint soulbound badges, verify roles |
+| 🔸 Blockchain | **Polygon Mumbai** | EVM-compatible, fast + cheap |
+| 🔸 Wallet + UI | **React + Tailwind + Ethers.js** | User dashboard, mint, verify |
+| 🔸 Off-Chain Logic | **Node.js + GitHub API** | Validate repo commits, authorship |
+| 🔸 Storage | **IPFS + NFT.Storage** | Store metadata, snapshots, proof assets |
+| 🔸 Signature Verification | **EIP-712** | Organizer & peer role validation |
+| 🔸 Optional Privacy (Phase 2) | **zk-SNARKS / Semaphore** | Selective proof disclosure |
+| 🔸 Deployment | **Vercel** | One-click deploy frontend |
+
+---
+
 
 ## Step 1: System Design Documentation
 In this phase, we defined the problem, solution architecture, and core functional flow of our Web3 project — PoSC (Proof of Skill via Contribution).
 
-🔍 What We Did:
+What We Did:
 Identified the real-world problem: lack of verifiable, trusted skill proof from hackathons and workshops.
 
 Wrote a problem statement with a relatable user story (Priya’s Journey).
