@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PoSC Protocol</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle, #0a0a23 0%, #000000 100%);
+    }
+    .cube-bg {
+      background-image: url('bg.png'); /* Use your cube-style background */
+      background-size: cover;
+      background-position: center;
+      opacity: 0.1;
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body class="relative min-h-screen text-white overflow-x-hidden">
+
+  <!-- Background -->
+  <div class="cube-bg"></div>
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-6 py-4">
+    <h1 class="text-xl font-bold text-green-300">PoSC Protocol</h1>
+    <ul class="flex gap-6 text-sm text-gray-300">
+      <li><a href="#">Individuals</a></li>
+      <li><a href="#">Developers</a></li>
+      <li><a href="#">Institutions</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <a href="dashboard.html" class="bg-green-400 text-black px-4 py-2 rounded font-semibold hover:bg-green-300 transition">Get Started</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col items-center justify-center text-center px-6 py-24 max-w-3xl mx-auto">
+    <h2 class="text-4xl font-bold text-white leading-tight mb-6">Welcome to PoSC</h2>
+    <p class="text-lg text-gray-300 mb-8">
+      PoSC is a decentralized protocol that provides verifiable, soulbound credentials for actual skill and contribution.
+      Whether you're building at hackathons or collaborating in Web3 teams, your work deserves permanent proof.
+    </p>
+    <a href="dashboard.html" class="bg-gradient-to-r from-pink-500 to-purple-600 px-6 py-3 rounded-md font-semibold text-white hover:scale-105 transition">
+      🚀 Launch Mint Dashboard
+    </a>
+  </section>
+
+  <!-- Community Section -->
+  <section class="bg-[#0f0f2e] py-12 text-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4">Join Our Community</h2>
+      <p class="text-gray-400 mb-6">Connect with builders, mentors, and devs who believe in verified proof of work through contribution.</p>
+      <div class="flex justify-center gap-6 text-2xl">
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-discord"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision Section -->
+  <section class="bg-black py-16 text-center text-gray-300">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-4 text-white">Why Proof of Skill?</h3>
+      <p class="text-lg">
+        In a world of bots, faked resumes, and inflated titles, PoSC stands for transparent, verifiable, and immutable proof of your real work.
+        Whether you're winning hackathons or contributing to open-source, your skills deserve to live on-chain.
+      </p>
+    </div>
+  </section>
+
+  <!-- Developer Zone -->
+  <section class="bg-[#111] py-12 px-6 text-white text-center">
+    <h2 class="text-2xl font-bold mb-4">👨‍💻 Build With PoSC</h2>
+    <p class="mb-6 text-gray-400">Explore our SDKs, contribute on GitHub, or mint your own PoSC module on-chain.</p>
+    <div class="flex justify-center gap-4">
+      <a href="#" class="px-5 py-2 border border-white rounded hover:bg-white hover:text-black transition">Docs</a>
+      <a href="#" class="px-5 py-2 border border-white rounded hover:bg-white hover:text-black transition">GitHub</a>
+      <a href="#" class="px-5 py-2 border border-white rounded hover:bg-white hover:text-black transition">Grants</a>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="bg-gray-900 text-white py-12 text-center">
+    <h2 class="text-xl font-bold mb-4">Stay Updated with PoSC</h2>
+    <p class="text-gray-400 mb-6">Join our newsletter to get updates on new drops, features, and ecosystem events.</p>
+    <form class="flex flex-col sm:flex-row justify-center gap-3 px-6">
+      <input type="email" placeholder="you@example.com" class="px-4 py-2 rounded-md text-black w-full sm:w-64" />
+      <button type="submit" class="bg-green-400 px-6 py-2 rounded-md font-semibold text-black hover:bg-green-300">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-500 py-10 px-6">
+    <div class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-sm">
+      <div>
+        <h4 class="text-white font-semibold mb-3">Products</h4>
+        <ul class="space-y-2">
+          <li><a href="#">Mint Dashboard</a></li>
+          <li><a href="#">Verifier Portal</a></li>
+          <li><a href="#">Wallet Integration</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Resources</h4>
+        <ul class="space-y-2">
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Company</h4>
+        <ul class="space-y-2">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Legal & Privacy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-3">Learn</h4>
+        <ul class="space-y-2">
+          <li><a href="#">What is PoSCa?</a></li>
+          <li><a href="#">Why Soulbound?</a></li>
+          <li><a href="#">Web3 Credentialing</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-xs text-gray-600 mt-8">
+      © 2025 PoSC Protocol. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
