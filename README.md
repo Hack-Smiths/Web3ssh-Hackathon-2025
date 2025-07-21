@@ -11,7 +11,7 @@
 
 Certificates, PDFs, or POAPs can say *"you were there."*
 
-But **none of them prove:**
+**But** **none of them prove:**
 
 - What **you built**
 - What **role** you played
